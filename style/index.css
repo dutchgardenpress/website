@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family : Ubuntu, sans-serif;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/snowy.png');
+    background-position: center;
+    background-size: cover; 
+    image-rendering: crisp-edges;
+    z-index: -1;
+}
+
+.headertext {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    color: #2B2D42;
+}
+
+.info-block-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.info-block-container img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.info-block {
+    width: 66%;
+}
+
+.info-block h2 {
+    margin-bottom: 20px;
+}
+
+.info-block p {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.514);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+
+/* Colors: 
+#FF8A5B
+#EA526F
+#EDF2F4
+#2B2D42
+#8D99AE 
+*/
