@@ -1,5 +1,16 @@
 :root {
-  --custom-color: #f0f0f0;
+  --wenge: #54494B;
+  --mint-cream: #F1F7ED;
+  --cambridge-blue: #91C7B1;
+  --flax: #E3D081;
+
+  --bg-brown: #483e2a;
+  --bg-light-brown: #826b52;
+  --bg-light-yellow: #f8f8d7;
+  --bg-off-white: #fbfbec;
+  --bg-dark-green: #4b6319;
+  --bg-mid-green: #637d49;
+  --bg-light-green: #c6d58b;
 }
 
 *{
@@ -9,17 +20,25 @@
     font-family : Montserrat, sans-serif;
 }
 
+body {
+    height: 100vh;
+}
+
 #background {
     position: fixed;
     top: 0;
 
     height: 100vh;
     width: 100%;
-    background-image: url('../images/snowy.png');
+
+    background-color: var(--bg-off-white);
+    /* background-image: url('../img/robin-wersich-Q0IrpWQIMR4-unsplash.jpg');
     background-position: center;
     background-size: cover; 
-    image-rendering: crisp-edges;
+    image-rendering: crisp-edges; */
     z-index: -1;
+
+    /* filter: blur(8px) */
 }
 
 .headertext {
@@ -28,7 +47,7 @@
     margin-top: 50px;
     margin-bottom: 20px;
     font-weight: lighter;
-    color: #2B2D42;
+    color: var(--bg-brown);
 }
 
 .info-block-container {
@@ -37,7 +56,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: black;
 }
 
 .info-block-container img {
@@ -60,11 +78,11 @@
     font-size: 22px;
     display: flex;
     justify-content: center;
-    color: white;
+    color: var(--bg-brown);
     padding: 20px;
 
-    backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(17, 25, 40, 0.514);
+    /* backdrop-filter: blur(16px) saturate(180%); */
+    background-color: var(--bg-off-white);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
 }
