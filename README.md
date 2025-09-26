@@ -1,1 +1,1 @@
-# Website for Duch Garden Press
+# Website for Dutch Garden Press
