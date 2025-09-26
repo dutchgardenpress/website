@@ -1,5 +1,6 @@
 :root {
   --dark-blue: #16303f;
+  --dark-blue-trans: #16303fcc;
   --dark-red: #70302d;
   --sky-blue: #649db4;
   --book-purple: #684860;
@@ -21,24 +22,20 @@
 }
 
 body {
-    /* height: 100vh; */
-    height: 1000px;
+    height: 100vh;
+    /* height: 1000px; */
+    /* min-height: 100vh; */
 }
 
 #background {
     position: fixed;
     top: 0;
+    z-index: -1;
 
     height: 100vh;
     width: 100%;
-
+    
     background-color: var(--bg-off-white);
-    /* background-image: url('../img/robin-wersich-Q0IrpWQIMR4-unsplash.jpg');
-    background-position: center;
-    background-size: cover; 
-    image-rendering: crisp-edges; */
-    z-index: -1;
-
     filter: blur(8px)
 }
 
