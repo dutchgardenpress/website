@@ -3,8 +3,8 @@ nav {
     top: 0;
     z-index: 1;
 
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
 
     /* display: flex;
     justify-content: space-between;
@@ -25,19 +25,19 @@ nav ul {
 }
 
 nav li {
-    height: 70px;
-
-    margin-left: 15px;
+    height: 80px;
+    /* margin-left: 15px; */
 }
 
 nav li:first-child {
     margin-right: auto;
+    margin-left: 0;
 }
 
 
 nav a {
     height: 100%;
-    padding: 0 15px;
+    padding: 0 20px;
 
     text-decoration: none;
 

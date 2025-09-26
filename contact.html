@@ -19,18 +19,24 @@
 
   <body>
     <main>
-      <div class="nav">
-        <a id="logo" href="./index.html"><img src="img/DGP Dark Blue.png" alt="DGP Logo"></a>
-        <div class="nav-item-container">
-            <button title="" class="nav-button" onclick="location.href='index.html';">About</button>
-            <!-- <div class="divider"></div> -->
-            <button title="" class="nav-button" onclick="location.href='index.html#books-section';">Books</button>
-            <!-- <div class="divider"></div> -->
-            <button title="" class="nav-button" onclick="location.href='';">Authors</button>
-            <!-- <div class="divider"></div> -->
-            <button title="" class="nav-button" onclick="location.href='contact.html';">Contact</button>
-        </div>
-      </div>
+      <nav>
+        <ul class="sidebar">
+          <li onclick=hideSidebar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fbfbec"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html#books-section">Books</a></li>
+          <li><a href="">Authors</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+ 
+        <ul>
+          <li><a id="logo" href="./index.html"><img src="img/DGP Dark Blue.png" alt="DGP Logo"></a></li>
+          <li class="hide-on-mobile"><a href="index.html">About</a></li>
+          <li class="hide-on-mobile"><a href="index.html#books-section">Books</a></li>
+          <li class="hide-on-mobile"><a href="">Authors</a></li>
+          <li class="hide-on-mobile"><a href="contact.html">Contact</a></li>
+          <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fbfbec"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+      </nav>
 
       <div id="background"></div>
 
