@@ -53,6 +53,7 @@
     justify-content: center;
 }
 
+
 .button-container {
     display: flex;
     flex-direction: column;
@@ -62,7 +63,6 @@
 }
 
 .button-container a{
-    
     padding: 8px 4px 8px 4px;
 
     border-style: solid;
