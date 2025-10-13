@@ -13,7 +13,7 @@
 
     margin-top: 40px;
 
-    width: 60%;
+    width: 50%;
 
 }
 
@@ -24,29 +24,25 @@
 }
 
 .text-column h1{
-    font-size: 5vh;
+    font-size: 4vh;
     color: var(--dark-blue);
 }
 
 .text-column p{
     color: var(--dark-blue);
-    width: 80%;
 }
 
 .text-column a{
     color: var(--dark-blue);
     font-weight: bold;
-    width: 80%;
 }
 
 .text-column hr{
     color: var(--dark-blue);
-    width: 80%;
 
     border-style: solid;
     border-color: var(--dark-blue);
 }
-
 
 
 .author-container img{
