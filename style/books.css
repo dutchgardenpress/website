@@ -5,7 +5,11 @@
 }
 
 .book-grid-item {
+    /* background-color: lightgoldenrodyellow; */
+
     margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
     /* margin-right: 7%;
     margin-left: 7%; */
 
@@ -32,9 +36,9 @@
 
 .book-grid-item img{
     display: inline-block;
-    width: 50%;
-    height: 400px;
-    object-fit: cover;
+    width: 22%;
+    height: 75%;
+    object-fit: contain;
 
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.45);
 
@@ -51,6 +55,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 35%;
 }
 
 
