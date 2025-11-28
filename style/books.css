@@ -1,5 +1,6 @@
 ﻿.book-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
@@ -30,7 +31,7 @@
 .book-grid-item img{
     display: inline-block;
     /* width: 18vw; */
-    height: 50vh;
+    height: 40vh;
     object-fit: contain;
     /* margin-bottom: 20px; */
 
